@@ -151,3 +151,6 @@ cython_debug/
 train_interactive.py
 tmp_fig.py
 log.txt
+
+# Figures
+exercise_7/Figures/*.png
