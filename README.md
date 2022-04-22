@@ -6,7 +6,7 @@ The exercises can be executed directly on the EPFL NOTO platform.
 
 Alternatively, you can clone this repository on your laptop and install the required environment using conda with the following steps: 
 
-0. Go to the directory where you want to clone the repository. As example: 
+0. Go to the directory where you want to clone the repository. As an example: 
    ```sh
    cd /home/ghiggi/Courses
    ```
@@ -22,9 +22,9 @@ Alternatively, you can clone this repository on your laptop and install the requ
    conda env create -f environment.yml
    ```
    
-3. Activate the RS2022 conda environment:
+3. Activate the rs2022 conda environment:
    ```sh
-   conda activate RS2022
+   conda activate rs2022
    ```
    
 4. Launch the jupyter notebook:
