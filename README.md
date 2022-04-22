@@ -1,9 +1,35 @@
 # EXERCISE for Remote Sensing Course 
 
-# Docs to share url 
-https://noto.epfl.ch/user/ch-epfl-224850/lab/workspaces/auto-E/tree/noto-poc-notebooks/HowTos/ShareNotebooks/3-ShareNotebooks-ShareURL.ipynb
-https://jupyterhub.github.io/nbgitpuller/
+This repository contains the exercices for the EPFL Remote Sensing Course.
 
-https://jupyterhub.github.io/nbgitpuller/link.html
-https://github.com/yuvipanda/nbgitpuller-link-generator-webextension
+The exercises can be executed directly on the EPFL NOTO platform. 
+
+Alternatively, you can clone this repository on your laptop and install the required environment using conda with the following steps: 
+
+0. Go to the directory where you want to clone the repository. As example: 
+   ```sh
+   cd /home/ghiggi/Courses
+   ```
+   
+1. Clone this repository:
+   ```sh
+   git clone git@github.com:ltelab/RS2022.git
+   cd RS2022
+   ```
+
+2. Install the dependencies using conda:
+   ```sh
+   conda env create -f environment.yml
+   ```
+   
+3. Activate the RS2022 conda environment:
+   ```sh
+   conda activate RS2022
+   ```
+   
+4. Launch the jupyter notebook:
+    ```sh
+   jupyter notebook
+   ```
+   
 
