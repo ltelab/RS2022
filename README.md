@@ -32,4 +32,4 @@ Alternatively, you can clone this repository on your laptop and install the requ
    jupyter notebook
    ```
    
-
+Note that the installation of the dependencies might cause conflicts; in case you encounter such issues and cannot fix them, please contact the TA team.
