@@ -13,8 +13,8 @@ Alternatively, you can clone this repository on your laptop and install the requ
    
 1. Clone this repository:
    ```sh
-   git clone git@github.com:ltelab/RS2022.git
-   cd RS2022
+   git clone git@github.com:ltelab/RS2023.git
+   cd RS2023
    ```
 
 2. Install the dependencies using conda:
@@ -22,14 +22,24 @@ Alternatively, you can clone this repository on your laptop and install the requ
    conda env create -f environment.yml
    ```
    
-3. Activate the rs2022 conda environment:
+3. Activate the exo-rs2023 conda environment:
    ```sh
-   conda activate rs2022
+   conda activate exo-rs2023
    ```
-   
-4. Launch the jupyter notebook:
-    ```sh
+
+4. Add the environment to the jupyter notebook: 
+   ```sh
+   python -m ipykernel install --user --name=exo-rs2023
+   ```
+
+6. Launch the jupyter notebook:
+   ```sh
    jupyter notebook
    ```
    
 Note that the installation of the dependencies might cause conflicts; in case you encounter such issues and cannot fix them, please contact the TA team.
+
+The latest version of the required packages can be installed using the following command: 
+```sh
+conda install numpy pandas xarray dask rasterio rioxarray scikit-learn matplotlib-base seaborn colorcet pywavelets pillow jupyter
+```
